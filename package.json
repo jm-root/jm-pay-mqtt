@@ -1,0 +1,35 @@
+{
+  "name": "jm-pay-mqtt",
+  "version": "0.0.1",
+  "description": "mqtt plugin for jm-pay",
+  "main": "./lib/index",
+  "scripts": {
+    "start": "node node_modules/jm-server/bin/jm-server",
+    "cluster": "node node_modules/jm-server/bin/jm-server --cluster",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.jamma.cn/play/jm-pay-mqtt.git"
+  },
+  "keywords": [
+    "javascript",
+    "jm-pay-mqtt"
+  ],
+  "author": {
+    "name": "Jeff YU"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "http://git.jamma.cn/play/jm-pay-mqtt/issues"
+  },
+  "homepage": "http://git.jamma.cn/play/jm-pay-mqtt",
+  "devDependencies": {
+    "jm-pay": "^0.0.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "jm-log4js": "^1.1.1",
+    "mqtt": "^2.13.0"
+  }
+}
