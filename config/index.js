@@ -15,6 +15,7 @@ var config = {
   production: {
     port: 80,
     lng: 'zh_CN',
+    db: 'mongodb://mongo.db/pay',
     modules: {
       'pay': {
         module: 'jm-pay'
