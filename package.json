@@ -28,7 +28,6 @@
     "jm-pay": "^2.0.0"
   },
   "dependencies": {
-    "jm-server": "^1.0.9",
     "bluebird": "^3.5.1",
     "jm-log4js": "^1.1.1",
     "mqtt": "^2.13.0"
